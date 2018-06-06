@@ -16,8 +16,6 @@ namespace Phoneword
             MainPage = new NavigationPage(new MainPage());
         }
 
-        //This is a test
-
         protected override void OnStart()
         {
             // Handle when your app starts
