@@ -8,10 +8,12 @@
             <On Platform="Android, WinPhone, Windows" Value="20" />
         </OnPlatform>
     </ContentPage.Padding>
+    <!-- The code below determines the alyout ofthe buttons -->
     <StackLayout VerticalOptions="FillAndExpand"
                  HorizontalOptions="FillAndExpand"
                  Orientation="Vertical"
                  Spacing="15">
+      <!-- This is the text that will be displayed on the app -->
       <Label Text="Enter a Phoneword:" />
       <Entry x:Name="phoneNumberText" Text="1-855-XAMARIN" />
       <Button x:Name="translateButon" Text="Translate" Clicked="OnTranslate" />
